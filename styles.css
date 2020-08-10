@@ -2,6 +2,10 @@
     --red : #f72210;
 }
 
+a {
+
+}
+
 .nav-top {
     background-color: var(--red);
 }
