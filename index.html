@@ -14,7 +14,9 @@
   <body>
       <div class="wrapper">
       <header class="container-fluid">
-          <nav id="top-header" class="row nav-top text-white d-flex justify-content-between py-2">
+          
+        <!-- firstNav -->
+        <nav  class="row nav-top text-white d-flex justify-content-between align-content-center py-2 border">
                 <div class="row col-lg-3 d-none d-lg-block">
                     <!-- Date and Temparature -->
                     <a href="#" class="text-white">                   
@@ -48,26 +50,30 @@
                     </button>
                 </div>
           </nav>
+          
+          <!-- seconNav -->
           <nav class="d-none row  d-lg-block" id="mid-header">    
             <ul class="row d-flex justify-content-around py-0 m-0">
-                <a class="border-right pr-4 " href="#"><h5>U.S.</h5></a>
-                <a class="border-right pr-4" href="#"><h5>World</h5></a>
-                <a class="border-right pr-4" href="#"><h5>Business</h5></a>
-                <a class="border-right pr-4" href="#"><h5>Tech & Science</h5></a>
-                <a class="border-right pr-4" href="#"><h5>Culture</h5></a>
-                <a class="border-right pr-4" href="#"><h5>Newsgeek</h5></a>
-                <a class="border-right pr-4" href="#"><h5>Sports</h5></a>
-                <a class="border-right pr-4" href="#"><h5>Health </h5></a>
-                <a class="border-right pr-4" href="#"><h5>The Debate </h5></a>
-                <a class="border-right pr-4" href="#"><h5>Vantage</h5></a>
-                <a class="border-right pr-4" href="#"><h5>Weather </h5></a>
+                <a class="border-right pr-4 " href="#">U.S.</a>
+                <a class="border-right pr-4" href="#">World</a>
+                <a class="border-right pr-4" href="#">Business</a>
+                <a class="border-right pr-4" href="#">Tech & Science</a>
+                <a class="border-right pr-4" href="#">Culture</a>
+                <a class="border-right pr-4" href="#">Newsgeek</a>
+                <a class="border-right pr-4" href="#">Sports</a>
+                <a class="border-right pr-4" href="#">Health </a>
+                <a class="border-right pr-4" href="#">The Debate </a>
+                <a class="border-right pr-4" href="#">Vantage</a>
+                <a class="border-right pr-4" href="#">Weather </a>
                 <span>
                     Search
                     <i class="fas fa-search"></i>
                 </span> 
             </ul>    
           </nav>
-          <nav id="bottom-header" class="row  d-none  d-lg-block">
+
+          <!-- third -->
+          <nav  class="row  d-none  border d-flex">
                 <div class="col-lg-8 bottom-nav">
                     <!-- lists -->
                         <a href="#">TRENDING</a>
@@ -82,10 +88,31 @@
                 </div>
           </nav>
       </header>
-      <main class="container-fluid">
+      <main class="container-fluid" s>
         <div class="row">
-            <div class="col-md-6 col-lg-3 " style="background-color:lavender;">FEATURED STORIES</div>
+            <!-- collum 1 -->
+            <div class="col-md-6 col-lg-3 " style="background-color:lavender;">
+                <article class="card">
+                    <!-- imageContainer -->
+                    <div class="position-relative image-container">
+                        <!-- <img src="https://d.newsweek.com/en/full/1619935/ferguson.webp?w=397&h=265&q=90&f=fcdc0af00a60ee6e72b6eadbf45d346d"> -->
+                        <p class="position-absolute">U.S</p>
+                    </div>
+                    <!-- <figure class="position-relative"> <img src="https://d.newsweek.com/en/full/1619935/ferguson.webp?w=397&h=265&q=90&f=fcdc0af00a60ee6e72b6eadbf45d346d"" alt="#" /> <figcaption class="text-center position-absolute fixed-bottom bg-info text-dark"> U.S. </figcaption> 
+                    </figure>  -->
+                    <div class="card-body">
+                        <h5 class="card-title">dsd</h5>
+                        <p class="card-text">asdasd</p>
+                    </div>
+                </article>
+                
+            
+            </div>
+
+            <!-- collum2 -->
             <div class="align-content-sm-start col-md-6 col-lg-6 " style="background-color:lavenderblush;">TOP STORY</div>
+
+            <!-- collum3 -->
             <div class="col-lg-3" style="background-color:lavender;">THE DEBATE</div>           
           </div>
       </main>

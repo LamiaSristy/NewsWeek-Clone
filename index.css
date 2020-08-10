@@ -14,10 +14,6 @@
     --red : #f72210;
 }
 
-a {
-
-}
-
 .nav-top {
     background-color: var(--red);
 }
@@ -41,19 +37,14 @@ ul {
     flex: 2;
 }
 
-.bottom-nav a{
-   padding-right: 10px;
-}
 
-/* .bottom-nav  {
-    color: red;
-    text-decoration: none;
-} */
+
+
 
 .bottom-nav a {
     color: gray;
+    margin: auto 0;
     
-    padding: 10px 20px;
 }
 
 .bottom-nav a:first-child {
@@ -70,3 +61,24 @@ ul {
    color: none;
 }
 
+#navFirst {
+    align-content: center;
+}
+
+.image-container {
+    width: 333px;
+    height: 222px;
+    background-color: red;
+}
+.image-container p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+img {
+    object-fit: cover;
+}
