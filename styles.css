@@ -1,0 +1,7 @@
+:root {
+    --red : #f72210;
+}
+
+.nav-top {
+    background-color: var(--red);
+}
