@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* exemples */
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+:root {
+    --red : #f72210;
+}
+
+a {
+
+}
+
+.nav-top {
+    background-color: var(--red);
+}
+
+/* MAIN CLASSES */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex- {
+    flex: 2;
+}
+
+.bottom-nav a{
+   padding-right: 10px;
+}
+
+/* .bottom-nav  {
+    color: red;
+    text-decoration: none;
+} */
+
+.bottom-nav a {
+    color: gray;
+    
+    padding: 10px 20px;
+}
+
+.bottom-nav a:first-child {
+   color: black;
+ }
+
+.bottom-nav a:nth-child(n+2):hover {
+   color: #f72210;
+   text-decoration: none;
+}
+
+.bottom-nav a:first-child:hover {
+   text-decoration: none;
+   color: none;
+}
+
