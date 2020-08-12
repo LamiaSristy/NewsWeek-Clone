@@ -4,23 +4,27 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/867f1dd431.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="icon" href="img/favicon.ico">
     <title>Newsweek - News, Analysis, Politics, Technology</title>
   </head>
-  <body>     
-      <header id="Top-header" class="container-fluid">         
-        <nav class="row nav-top text-white d-flex justify-content-between py-2">
+  <body class="container-fluid wrapper">     
+    <header>
+        <nav class="row nav-header text-white d-flex justify-content-between py-2">
             <div class="row col-lg-3 d-none d-lg-block py-1">
-                <a href="#" class="text-white">
+                <a href="#" class="text-white px-2 ">
                     <i class="fas fa-cloud-sun-rain"></i>
-                    <span>30°</span>
+                    <span>24°</span>
                     <span>Null, NL> </span>
                 </a>
-                <p>TUE, Aug 11, 2020</p> 
+                <p class="px-2">TUE, Aug 11, 2020</p> 
             </div>
             <div class="col-md-3 col-lg-4 col-5 d-flex py-1">
                 <img src="img/logo.svg" alt="Newsweek Logo" />
@@ -41,41 +45,43 @@
                 <i class="bars-icon fas fa-bars d-lg-none fa-2x"></i>
               </div>
         </nav>
-        <nav class="row bg-white d-none d-lg-block py-2">
-            <div class="border-bottom">
-                <ul class="py-3 px-5 list-unstyled ">
-                    <li class="row d-flex justify-content-between font-weight-bold">
-                        <a href="#"><h5>U.S.</h5></a>
-                        <a href="#"><h5>World</h5></a>
-                        <a href="#"><h5>Business</h5></a>
-                        <a href="#"><h5>Tech & Science</h5></a>
-                        <a href="#"><h5>Culture</h5></a>
-                        <a href="#"><h5>Newsgeek</h5></a>
-                        <a href="#"><h5>Sports</h5></a>
-                        <a href="#"><h5>Health</h5></a>
-                        <a href="#"><h5>The Debate</h5></a>
-                        <a href="#"><h5>Vantage</h5></a>
-                        <a href="#"><h5>Weather</h5></a> 
-                        <span>
-                            Search
-                            <i class="fas fa-search"></i>
-                        </span>                           
-                    </li>
-                </ul>                              
-            </div>                    
-        </nav>  
-        <nav class="row  bg-white d-none d-lg-block py-2 border-bottom">
-            <ul class="nav-bottom list-unstyled px-3">
+        <nav class="row bg-white d-none d-lg-block py-0 border-bottom">   
+            <ul class="mid-nav pt-3 px-5 list-unstyled ">
                 <li class="row d-flex justify-content-between font-weight-bold">
-                    <a href="#"><h5>TRENDING</h5></a>
-                    <a href="#"><h5>DONALD TRUMP</h5></a>
-                    <a href="#"><h5>CHINA</h5></a>
-                    <a href="#"><h5>CORONAVIRUS</h5></a>
-                    <a href="#"><h5>2020 ELECTION</h5></a>
+                    <a href="#"><h5>U.S.</h5></a>
+                    <a href="#"><h5>World</h5></a>
+                    <a href="#"><h5>Business</h5></a>
+                    <a href="#"><h5>Tech & Science</h5></a>
+                    <a href="#"><h5>Culture</h5></a>
+                    <a href="#"><h5>Newsgeek</h5></a>
+                    <a href="#"><h5>Sports</h5></a>
+                    <a href="#"><h5>Health</h5></a>
+                    <a href="#"><h5>The Debate</h5></a>
+                    <a href="#"><h5>Vantage</h5></a>
+                    <a href="#"><h5>Weather</h5></a> 
+                    <span>
+                        Search
+                        <i class="fas fa-search"></i>
+                    </span>                           
                 </li>
-            </ul>
-        </nav>        
-      </header>
+            </ul>                               
+        </nav>
+        <nav class="row bg-white d-none d-lg-block py-2 border-bottom">
+            <ul class="nav-bottom pt-3 list-unstyled pl-5">
+                <li class="row d-flex justify-content-between font-weight-bold">
+                    <h6>TRENDING</h6>
+                    <a href="#" class="custom-color"><h6>DONALD TRUMP</h6></a>
+                    <a href="#" class="custom-color"><h6>CHINA</h6></a>
+                    <a href="#" class="custom-color"><h6>CORONAVIRUS</h6></a>
+                    <a href="#" class="custom-color"><h6>2020 ELECTION</h6></a>
+                </li>
+            </ul> 
+        </nav>  
+    </header>
+            
+      
+      
+
       <!-- <main class="container-fluid" s>
         <div class="row">
            
@@ -103,6 +109,214 @@
             <div class="col-lg-3 order-2 order-md-3" style="background-color:lavender;">THE DEBATE</div>           
           </div>
       </main> -->
+
+      <section class="in-magazine">
+        <div class="row border-bottom bg-white d-flex justify-content-center pb-0">
+          <div class="d-flex justify-content-center">
+            <img class="logo-pic w-25 mr-2" src="img/n.png" alt="Newsletter logo">
+            <h5 class="align-self-center">IN THE MAGAZINE</h5>
+          </div>
+        </div>        
+        <div class="row bg-white pt-3">   
+          <div class="card col-md-3 col-lg-3 mb-2 border-0">
+            <figure class="position-relative mb-0">
+              <img  class="w-100 p-0 mb-0" src="img/Trump.jpg" alt="Trump-in-covor" />
+              <figcaption class="position-absolute text-nowrap p-1 my-0">
+                AUGUST 14 ISSUE
+              </figcaption>
+            </figure>
+            <button type="submit" class="outline-none border-0 w-100 my-0 p-2 btn-light">
+              SEE ALL FEATURES >
+            </button>
+          </div>
+    
+          <div class="card col-md-3 col-lg-3 mb-2 border-0 ">
+            <figure class="position-relative h-75 pt-2 mb-0">
+              <img class="w-100 h-100 mb-0" src="img/Trump.jpg" alt="Trump-in-covor" />
+              <figcaption class="position-absolute fixed-bottom w-100 text-nowrap bg-white p-2 mt-2">
+                <span class="bg text-white p-1 mr-1">COVER</span><span class="text-color p-1">POLITICS</span>
+              </figcaption>
+            </figure>
+            <a href="">How Trump Could Turn Troubled 2020 Election into an Unprecedented Disaster</a>
+          </div>
+    
+          <div class="card col-md-3 col-lg-3 mb-2 border-0">
+            <figure class="position-relative h-75 pt-2 mb-0">
+              <img class="w-100 h-100 mb-0" src="img/map.jpg" alt="Map-with-blue-part" />
+              <figcaption class="position-absolute fixed-bottom w-100 text-nowrap bg-white p-2 my-0">
+                <span class="bg text-white p-1">FEATURES</span><span class="text-color p-1">POLITICS</span>
+              </figcaption>
+            </figure>
+            <a href="">Will the blue invasion of red state America finally pay off in 2020?</a>
+          </div>
+
+          <div class="card col-md-3 col-lg-3 mb-2 border-0">
+            <figure class="position-relative h-75 pt-2 mb-0">
+              <img class="w-100 h-100 mb-0"  src="img/John-Lwes.jpg" alt="John-Lwes" />
+              <figcaption class="position-absolute fixed-bottom w-100 text-nowrap bg-white p-1 my-0">
+                <span class="bg text-white p-1">PERISCOPE</span><span class="text-color p-1">OPINION</span>
+              </figcaption>
+            </figure>
+            <a href="">In the Name of John Lewis, Let Us Restore the Voting Rights Act</a>
+          </div>
+        </div>   
+        <div class="row pb-3 bg-white">
+            <div class="card col-md-3 col-lg-3 mb-2 border-0">
+              <figure class="position-relative h-75 pt-2 mb-0">
+                <img class="w-100 h-100 mb-0"  src="img/A-car.jpg" alt="A Car" />
+                <figcaption class="position-absolute fixed-bottom w-100 text-nowrap bg-white p-1 my-0">
+                  <span class="bg text-white p-1">PERISCOPE</span><span class="text-color p-1">CULTURE</span>
+                </figcaption>
+              </figure>
+              <a href="">A Look Inside the Luxury Bunker Built by Doomsday Preppers for the Apocalypse</a>
+            </div>
+    
+          <div class="card col-md-3 col-lg-3 mb-2 border-0">
+            <figure class="position-relative h-75 pt-2 mb-0">
+              <img class="w-100 h-100 mb-0" src="img/Beach.jpg" alt="In a beach"  />
+              <figcaption class="position-absolute fixed-bottom w-100 text-nowrap bg-white p-1 my-0">
+                <span class="bg text-white p-1">PERISCOPE</span><span class="text-color p-1">CULTURE</span>
+              </figcaption>
+            </figure>
+            <a href="">Europe Fears Coronavirus Second Wave Amid Spikes in Spain, France, Germany</a>
+          </div>
+            
+          <div class="card col-md-3 col-lg-3 mb-2 border-0">
+            <figure class="position-relative h-100 pt-2 mb-0 ">
+              <img class="w-100 h-100 mb-0"   src="img/street-hassle.jpg" alt="street-hassle" />
+              <p class="position-absolute fixed-bottom w-25 text-nowrap py-1 my-0">
+                <span class="bg text-white p-2 m-0">IN FOCUS</span>
+              </p>
+            </figure>
+            <a href="">STREET HASSLE</a>
+          </div>
+        </div>
+      </section>
+      <section class="editor-pic">           
+                <!-- Editor's pic -->
+                <div class="row d-flex justify-content-center border-bottom bg-white">
+                <img class="logo-pic w-25 mr-2" src="img/n.png" alt="Newsletter logo">
+                <h5 class="align-self-center">Editor's Picks</h5>
+                </div>
+
+                <div class="row pt-3 bg-white">
+                    <div class="card border-0 my-3 col-lg-3 col-md-6">
+                        <figure class="position-relative mb-0 w-100">
+                        <img src="img/crowd.jpg" alt="crowd" class="w-100 p-0 mb-0 img-fluid h-100" />
+                        <figcaption class="position-absolute text-nowrap p-1 my-0">
+                            NEWS
+                        </figcaption>
+                        </figure>
+                        <a href="">
+                            Europe Imposes New Restrictions as Countries Face 'Alarming' COVID-19 Surge
+                        </a>
+                        <p>
+                            France, Spain, Italy, Germany, The Netherlands, Belgium and Greece have issued new safety measures following a rise in cases.
+                        </p>                
+                    </div>
+                    <div class="card border-0 my-3 col-lg-3 col-md-6">
+                        <figure class="position-relative mb-0 w-100">
+                            <img src="img/Diver.jpg" alt="A-diver" class="w-100 p-0 mb-0 img-fluid h-100" /> 
+                            <figcaption class="position-absolute text-nowrap p-1 my-0">
+                                TECH & SCIENCE
+                            </figcaption>
+                        </figure>
+                        <a href="">
+                            Shark Not Seen for Over 100 Years Rediscovered in 'Land of the Lost'
+                        </a>
+                        <p>
+                            "I was shocked, absolutely shocked," wildlife biologist and broadcaster Forrest Galante said upon finding the shark.
+                        </p>    
+                    </div>
+                    <div class="card border-0 my-3 col-lg-3 col-md-6">
+                        <figure class="position-relative mb-0 w-100">
+                        <img src="img/An-apple-store.jpg" alt="Apple store" class="w-100 p-0 mb-0 img-fluid h-100" /> 
+                        <figcaption class="position-absolute text-nowrap p-1 my-0">
+                            News
+                            </figcaption>
+                        </figure>
+                        <a href="">
+                            Tesla, Apple, Lamborghini Among Stores Looted, Vandalized in Chicago Riots
+                    </a>
+                    <p>
+                        Mass looting and vandalism took place in downtown Chicago last night, with Nordstrom, Walgreens, Macy's, Coach, Gucci, Saks Fifth Avenue, Neiman Marcus, Best Buy, Old Navy, and Louis Vuitton hit among others.
+                    </p>    
+                    </div>
+                    <div class="card border-0 my-3 col-lg-3 col-md-6">
+                        <figure class="position-relative mb-0 w-100">
+                        <img src="img/ICE-Fascility.jpg" alt="ICE-Fascility" class="w-100 p-0 mb-0 img-fluid h-100" /> 
+                        <figcaption class="position-absolute text-nowrap p-1 my-0">
+                            U.S.
+                            </figcaption>
+                        </figure>
+                        <a href="">
+                            ICE Facility Turns Ambulance Away After Detainees Warn 'I Can't Breathe'
+                    </a>
+                    <p>
+                        "We were worried they were going to die," immigration attorney Lisa Knox told Newsweek.
+                    </p>    
+                    </div>
+                </div>
+
+                <div class="row pt-3 bg-white">
+                    <div class="card border-0 my-3 col-lg-3 col-md-6">
+                        <figure class="position-relative mb-0 w-100">
+                        <img src="img/Eviction.jpg" alt="Anti-Eviction" class="w-100 p-0 mb-0 img-fluid h-100" />
+                        <figcaption class="position-absolute text-nowrap p-1 my-0">
+                            U.S.
+                        </figcaption>
+                        </figure>
+                        <a href="">
+                            Trump's Executive Order Could See Eviction Epidemic as Renters at Risk
+                        </a>
+                        <p>
+                            The country may be facing the "most severe housing crisis in its history" as federal, state and local protections and resources expire and people continue to struggle financially, a new study has warned.
+                        </p>                
+                    </div>
+                    <div class="card border-0 my-3 col-lg-3 col-md-6">
+                        <figure class="position-relative mb-0 w-100">
+                            <img src="img/Vaccine.webp" alt="Vaccine" class="w-100 p-0 mb-0 img-fluid h-100" /> 
+                            <figcaption class="position-absolute text-nowrap p-1 my-0">
+                            WORLD
+                            </figcaption>
+                        </figure>
+                        <a href="">
+                            Does Anyone Really Know How Much a COVID-19 Vaccine Will Cost Governments?
+                        </a>
+                        <p>
+                            If there is no price too high for a successful vaccine, does that change if you've already paid for 100 unsuccessful ones?
+                        </p>    
+                    </div>
+                    <div class="card border-0 my-3 col-lg-3 col-md-6">
+                        <figure class="position-relative mb-0 w-100">
+                        <img src="img/police.jpg" alt="Police" class="w-100 p-0 mb-0 img-fluid h-100" /> 
+                        <figcaption class="position-absolute text-nowrap p-1 my-0">
+                            WORLD
+                            </figcaption>
+                        </figure>
+                        <a href="">
+                            Protester takes on police force in video as unrest breaks out in Belarus
+                    </a>
+                    <p>
+                        The video emerged as protesters and riot police clashed in Belarus' capital Minsk and other cities in the wake of Alexander Lukashenko's presidential election victory.
+                    </p>    
+                    </div>
+                    <div class="card border-0 my-3 col-lg-3 col-md-6">
+                        <figure class="position-relative mb-0 w-100">
+                        <img src="img/Trump2.jpg" alt="ICE-Fascility" class="w-100 p-0 mb-0 img-fluid h-100" /> 
+                        <figcaption class="position-absolute text-nowrap p-1 my-0">
+                            U.S.
+                            </figcaption>
+                        </figure>
+                        <a href="">
+                            When Will the $400 Unemployment Start? Trump's Executive Action Explained
+                    </a>
+                    <p>
+                        The funds for this wage loss assistance program will be 75 percent funded by the federal government and 25 percent by state government.
+                    </p>    
+                    </div>
+                </div>            
+      </section>
       <footer></footer>
 
     <!-- Bootstrap JS -->   

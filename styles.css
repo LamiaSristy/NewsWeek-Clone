@@ -1,8 +1,10 @@
 /* Reset */
 :root {
-    --red: rgb(248, 44, 8);   
-    --figcap-bg: #f0e7e7e6;
     --body-color: #e6ebf0;
+    --red: rgb(248, 44, 8);  
+    --grey: rgb(134, 126, 126);
+    --figcap-bg: #f0e7e7e6;
+    
   }
   
   .bg-red {
@@ -25,7 +27,7 @@
   }
 
 /* Global */  
-body {
+ body {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0 auto;
     background-color: var(--body-color);
@@ -39,10 +41,11 @@ body {
     text-decoration: none;
     color: black;
   }
-  
   a:hover {
     color: var(--red);
   }
+
+ 
   
   img {
     width: 100%;
@@ -58,78 +61,37 @@ body {
   }
 
 
+  .wrapper {
+    width: 90%;
+  }
+  
   /* Header */
-
-
-  .nav-top {
+  
+.nav-header {
     background-color: var(--red);
-  }  
+  }
+    
 
   .nav-bottom {
       width: 60%;
   }
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
-:root {
-    --red : #f72210;
-}
-
-.nav-top {
-    background-color: var(--red);
-}
-
-
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-.bottom-nav a {
-    color: gray;
-    margin: auto 0;
-    
-}
-
-.bottom-nav a:first-child {
-   color: black;
+  .custom-color {
+    color: var(--grey);
  }
 
-.bottom-nav a:nth-child(n+2):hover {
-   color: #f72210;
-   text-decoration: none;
-}
+ /* Section: In The Magazin and Editor's pic */
 
-.bottom-nav a:first-child:hover {
-   text-decoration: none;
-   color: none;
-}
+ .logo-pic {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  
+  .bg {
+    background-color: var(--red);
+  }
+  
+  .text-color {
+    color: var(--red);
+  }
+  
 
-#navFirst {
-    align-content: center;
-}
-
-.image-container {
-    width: 333px;
-    height: 222px;
-    background-color: red;
-}
-.image-container p {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-bottom: 0;
-    padding: 20px;
-    background-color: lightblue;
-}
-
-img {
-    object-fit: cover;
-} */
