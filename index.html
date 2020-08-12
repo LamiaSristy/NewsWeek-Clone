@@ -11,95 +11,82 @@
 
     <title>Newsweek - News, Analysis, Politics, Technology</title>
   </head>
-  <body>
-      <div class="wrapper">
-      <header class="container-fluid">
-          
-        <!-- firstNav -->
-        <nav  class="row nav-top text-white d-flex justify-content-between align-content-center py-2 border">
-                <div class="row col-lg-3 d-none d-lg-block ">
-                    <!-- Date and Temparature -->
-                    <a href="#" class="text-white pl-2">                   
-                        <i class="fas fa-cloud-sun-rain"></i>
-                        <span>22 &#176 </span>
-                        <span>null, NL></span>
-                    </a>
-                    <div>
-                        <p>Sun, Aug 09, 2020</p>
-                    </div>
-                </div>
-                <div>
-                    <!-- Logo img -->
-                    <a href="#" class="col-md-3 col-lg-4 d-flex py-1 text-white">
-                       <h1>Newsweek</h1>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-end">
-                    <!-- buttons -->
-                    <div class="d-flex d-md-none d-lg-none">
-                        <i class="fas fa-user"></i>
-                    </div>  
-                    <div class="d-flex d-sm-none d-md-block display-lg-block">
-                        <button type="submit" class="font-weight-bolder bg-transparent text-white border-0">
-                            LOGIN
-                        </button>
-                    </div>                         
-                    
-                    <button type ="button" class="btn btn-warning font-weight-bolder rounded-pill mx-3">
-                        SUBSCRIBE
+  <body>     
+      <header id="Top-header" class="container-fluid">         
+        <nav class="row nav-top text-white d-flex justify-content-between py-2">
+            <div class="row col-lg-3 d-none d-lg-block py-1">
+                <a href="#" class="text-white">
+                    <i class="fas fa-cloud-sun-rain"></i>
+                    <span>30°</span>
+                    <span>Null, NL> </span>
+                </a>
+                <p>TUE, Aug 11, 2020</p> 
+            </div>
+            <div class="col-md-3 col-lg-4 col-5 d-flex py-1">
+                <img src="img/logo.svg" alt="Newsweek Logo" />
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-end">
+                <i class="fas fa-user d-md-none"></i>
+                <div class="d-flex d-none d-md-block display-lg-block">
+                    <button type="submit" class="font-weight-bolder bg-transparent text-white border-0">
+                        LOGIN
                     </button>
+                </div>                         
+                
+                <div>
+                  <button type="button" class="btn btn-warning font-weight-bolder rounded-pill mx-3">
+                    SUBSCRIBE
+                  </button>
                 </div>
-          </nav>
-          
-          <!-- seconNav -->
-          <nav class="d-none row  d-lg-block" id="mid-header">    
-            <ul class="row d-flex justify-content-around py-0 m-0">
-                <a class="border-right pr-4 " href="#">U.S.</a>
-                <a class="border-right pr-4" href="#">World</a>
-                <a class="border-right pr-4" href="#">Business</a>
-                <a class="border-right pr-4" href="#">Tech & Science</a>
-                <a class="border-right pr-4" href="#">Culture</a>
-                <a class="border-right pr-4" href="#">Newsgeek</a>
-                <a class="border-right pr-4" href="#">Sports</a>
-                <a class="border-right pr-4" href="#">Health </a>
-                <a class="border-right pr-4" href="#">The Debate </a>
-                <a class="border-right pr-4" href="#">Vantage</a>
-                <a class="border-right pr-4" href="#">Weather </a>
-                <span>
-                    Search
-                    <i class="fas fa-search"></i>
-                </span> 
-            </ul>    
-          </nav>
-
-          <!-- third -->
-          <nav  class="row  d-none  border d-flex">
-                <div class="col-lg-8 bottom-nav">
-                    <!-- lists -->
-                        <a href="#">TRENDING</a>
-                        <a href="#">DONALD TRUMP</a>
-                        <a href="#">JOE BIDEN</a>
-                        <a href="#">CHINA</a>
-                        <a href="#">CORONAVIRUS</a>
-                        <a href="#">2020 ELECTION</a>
-                </div>
-                <div class="col-lg-4">
-
-                </div>
-          </nav>
+                <i class="bars-icon fas fa-bars d-lg-none fa-2x"></i>
+              </div>
+        </nav>
+        <nav class="row bg-white d-none d-lg-block py-2">
+            <div class="border-bottom">
+                <ul class="py-3 px-5 list-unstyled ">
+                    <li class="row d-flex justify-content-between font-weight-bold">
+                        <a href="#"><h5>U.S.</h5></a>
+                        <a href="#"><h5>World</h5></a>
+                        <a href="#"><h5>Business</h5></a>
+                        <a href="#"><h5>Tech & Science</h5></a>
+                        <a href="#"><h5>Culture</h5></a>
+                        <a href="#"><h5>Newsgeek</h5></a>
+                        <a href="#"><h5>Sports</h5></a>
+                        <a href="#"><h5>Health</h5></a>
+                        <a href="#"><h5>The Debate</h5></a>
+                        <a href="#"><h5>Vantage</h5></a>
+                        <a href="#"><h5>Weather</h5></a> 
+                        <span>
+                            Search
+                            <i class="fas fa-search"></i>
+                        </span>                           
+                    </li>
+                </ul>                              
+            </div>                    
+        </nav>  
+        <nav class="row  bg-white d-none d-lg-block py-2 border-bottom">
+            <ul class="nav-bottom list-unstyled px-3">
+                <li class="row d-flex justify-content-between font-weight-bold">
+                    <a href="#"><h5>TRENDING</h5></a>
+                    <a href="#"><h5>DONALD TRUMP</h5></a>
+                    <a href="#"><h5>CHINA</h5></a>
+                    <a href="#"><h5>CORONAVIRUS</h5></a>
+                    <a href="#"><h5>2020 ELECTION</h5></a>
+                </li>
+            </ul>
+        </nav>        
       </header>
-      <main class="container-fluid" s>
+      <!-- <main class="container-fluid" s>
         <div class="row">
-            <!-- collum 1 -->
+           
             <div class="col-md-6 col-lg-3 order-1" style="background-color:lavender;">
                 <article class="card">
-                    <!-- imageContainer -->
+                    
                     <div class="position-relative image-container">
-                        <!-- <img src="https://d.newsweek.com/en/full/1619935/ferguson.webp?w=397&h=265&q=90&f=fcdc0af00a60ee6e72b6eadbf45d346d"> -->
+                      
                         <p class="position-absolute">U.S</p>
                     </div>
-                    <!-- <figure class="position-relative"> <img src="https://d.newsweek.com/en/full/1619935/ferguson.webp?w=397&h=265&q=90&f=fcdc0af00a60ee6e72b6eadbf45d346d"" alt="#" /> <figcaption class="text-center position-absolute fixed-bottom bg-info text-dark"> U.S. </figcaption> 
-                    </figure>  -->
+                    
                     <div class="card-body">
                         <h5 class="card-title">dsd</h5>
                         <p class="card-text">asdasd</p>
@@ -109,17 +96,17 @@
             
             </div>
 
-            <!-- collum2 -->
+           
             <div class="col-md-6 col-lg-6 order-3 order-md-2 " style="background-color:lavenderblush;">TOP STORY</div>
 
-            <!-- collum3 -->
+           
             <div class="col-lg-3 order-2 order-md-3" style="background-color:lavender;">THE DEBATE</div>           
           </div>
-      </main>
+      </main> -->
       <footer></footer>
 
     <!-- Bootstrap JS -->   
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
-</div>
+
   </body>
 </html>
