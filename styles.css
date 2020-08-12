@@ -62,7 +62,7 @@
 
 
   .wrapper {
-    width: 90%;
+    width: 85%;
   }
   
   /* Header */
@@ -77,6 +77,10 @@
   }
   .custom-color {
     color: var(--grey);
+ }
+
+ .advertise {
+   background-color: var(--grey-subscription);
  }
 
  /* Section: In The Magazin and Editor's pic */
@@ -102,9 +106,11 @@
   .subscription {
     background-color: var(--grey-subscription);
     margin: 5px;
+    padding: 30px;
   }
   .subscription img {
-    width: 80%;
+    width: 90%;
+    height: 100%;
     
   }
 
