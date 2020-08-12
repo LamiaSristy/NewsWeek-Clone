@@ -4,7 +4,7 @@
     --red: rgb(248, 44, 8);  
     --grey: rgb(134, 126, 126);
     --figcap-bg: #f0e7e7e6;
-    
+    --grey-subscription: #f4f5f6;
   }
   
   .bg-red {
@@ -99,4 +99,24 @@
       width: 80px;
   }
   
+  .subscription {
+    background-color: var(--grey-subscription);
+    margin: 5px;
+  }
+  .subscription img {
+    width: 80%;
+    
+  }
 
+  .btn-red {
+    background-color: var(--red);
+  }
+
+
+
+  .footer-logo {
+    object-fit: unset;
+  }
+  .footer-p {
+    font-size: 12px;
+  }
