@@ -93,5 +93,10 @@
   .text-color {
     color: var(--red);
   }
+
+  .img-aside {
+      height: 80px;
+      width: 80px;
+  }
   
 
