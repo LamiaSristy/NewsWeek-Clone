@@ -5,14 +5,7 @@
     --grey: rgb(134, 126, 126);
     --figcap-bg: #f0e7e7e6;
     --grey-decoration: #f4f5f6;
-  }
-  
-  .bg-red {
-    background-color: var(--figcap);
-  }
-  
-  .red {
-    color: var(--figcap);
+    --grey-decoration2: #caced4;
   }
   
   *,
@@ -35,6 +28,7 @@
   
   p {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
   }
   
   a {
@@ -61,45 +55,63 @@
   }
 
 
-  .wrapper {
-    width: 85%;
-  }
+.wrapper {
+  width: 85%;
+}
+
+
+.mobile-screen {
+  width: 100%;
+}
   
-  /* Header */
+ /* Header */
   
 .nav-header {
-    background-color: var(--red);
-  }
-    
+  background-color: var(--red);
+}
 
-  .nav-bottom {
-      width: 60%;
-  }
-  .custom-color {
-    color: var(--grey);
- }
+.nav-header img {
+  object-fit: unset;
+}  
+
+.nav-bottom {
+  width: 60%;
+}
+  
+.custom-color {
+  color: var(--grey);
+}
+
  /* Debate & Opinion */
 
- .decoration {
-   position: relative;
-   height: 4px;
-   width: 100%;
-   background-color: var(--grey-decoration);
- }
+.decoration {
+  position: relative;
+  height: 4px;
+  width: 100%;
+  background-color: var(--grey-decoration2)
+}
 
- .vs-decoration {
-   position: absolute;
-   background-color: black;
-   border-radius: 20px;
-   margin-top: -10px;
-   margin-left: calc(50% - 18px);
- }
+.vs-decoration {
+  position: absolute;
+  width: 25px;
+  padding-left: 3px;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: -10px;
+  margin-left: calc(50% - 18px);
+}
 
- .advertise {
-   background-color: var(--grey-decoration);
- }
+.border-decoration {
+  width: 100%;
+  height: .5px;
+  background-color: lightgray;
+}
 
- /* Section: In The Magazin and Editor's pic */
+.advertise {
+  background-color: var(--grey-decoration);
+}
+
+/* Section: In The Magazin and Editor's pic */
 
  .logo-pic {
     max-width: 30px;

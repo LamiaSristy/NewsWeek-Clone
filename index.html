@@ -30,35 +30,36 @@
                 <img src="img/logo.svg" alt="Newsweek Logo" />
             </div>
             <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-end">
-                <i class="fas fa-user d-md-none"></i>
-                <div class="d-flex d-none d-md-block display-lg-block">
+                <div class="d-flex d-md-none d-lg-none">
+                    <i class="fas fa-user"></i>
+                </div> 
+                <div class="d-none d-md-block display-lg-block">
                     <button type="submit" class="font-weight-bolder bg-transparent text-white border-0">
                         LOGIN
                     </button>
-                </div>                         
-                
+                </div>                
                 <div>
                   <button type="button" class="btn btn-warning font-weight-bolder rounded-pill mx-3">
-                    SUBSCRIBE
+                    SUBSCRIBE 
                   </button>
                 </div>
-                <i class="bars-icon fas fa-bars d-lg-none fa-2x"></i>
+                <i class="bars-icon fas fa-bars d-lg-none"></i>
               </div>
         </nav>
-        <nav class="row bg-white d-none d-lg-block py-0 border-bottom">   
+        <nav class="row bg-white d-none d-lg-block border-bottom">   
             <ul class="mid-nav pt-3 px-5 list-unstyled ">
                 <li class="row d-flex justify-content-between font-weight-bold">
-                    <a href="#"><h5>U.S.</h5></a>
-                    <a href="#"><h5>World</h5></a>
-                    <a href="#"><h5>Business</h5></a>
-                    <a href="#"><h5>Tech & Science</h5></a>
-                    <a href="#"><h5>Culture</h5></a>
-                    <a href="#"><h5>Newsgeek</h5></a>
-                    <a href="#"><h5>Sports</h5></a>
-                    <a href="#"><h5>Health</h5></a>
-                    <a href="#"><h5>The Debate</h5></a>
-                    <a href="#"><h5>Vantage</h5></a>
-                    <a href="#"><h5>Weather</h5></a> 
+                    <h5 class="px-2 border-right"><a href="#">U.S.</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">World</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">Business</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">Tech & Science</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">Culture</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">Newsgeek</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">Sports</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">Health</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">The Debate</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">Vantage</a></h5>
+                    <h5 class="px-2 border-right"><a href="#">Weather</a></h5> 
                     <span>
                         Search
                         <i class="fas fa-search"></i>
@@ -66,29 +67,29 @@
                 </li>
             </ul>                               
         </nav>
-        <nav class="row bg-white d-none d-lg-block py-2 border-bottom mt-1">
+        <nav class="row bg-white d-none d-lg-block  border-bottom my-1">
             <ul class="nav-bottom pt-3 list-unstyled pl-5">
                 <li class="row d-flex justify-content-between font-weight-bold">
                     <h6>TRENDING</h6>
-                    <a href="#" class="custom-color"><h6>DONALD TRUMP</h6></a>
-                    <a href="#" class="custom-color"><h6>CHINA</h6></a>
-                    <a href="#" class="custom-color"><h6>CORONAVIRUS</h6></a>
-                    <a href="#" class="custom-color"><h6>2020 ELECTION</h6></a>
+                    <h6><a href="#" class="custom-color">DONALD TRUMP</a></h6>
+                    <h6><a href="#" class="custom-color">CHINA</a></h6>
+                    <h6><a href="#" class="custom-color">CORONAVIRUS</a></h6>
+                    <h6><a href="#" class="custom-color">2020 ELECTION</a></h6>
                 </li>
             </ul> 
         </nav>  
     </header> 
 
-    <section class="main-area">
-        <div class="row pt-3 bg-white">
-            <div class=" d-12 d-sm-none d-md-none d-lg-none">
-                TOP STORY
+    <section class="mobile-screen">   
+        <div class="row bg-white mb-3">   
+            <div class="col-12  d-sm-none d-md-none d-lg-none ">
+                <h6 class="custom-color">TOP STORY</h6>
                 <div class="card border-0 my-3">
-                    <figure class="w-100 position-relative mb-0 ">
-                    <img src="img/facebook-logo.jpg" alt="facebook-Top-Story" class="w-100 p-0 mb-0 img-fluid h-100" />
-                    <figcaption class="position-absolute text-nowrap p-1 my-0">
-                      TECH & SCIENCE
-                    </figcaption>
+                    <figure class="position-relative mb-0 ">
+                        <img src="img/facebook-logo.jpg" alt="facebook-Top-Story" class="w-100 p-0 mb-0 img-fluid h-100" />
+                        <figcaption class="position-absolute text-nowrap p-1 my-0">
+                        TECH & SCIENCE
+                        </figcaption>
                     </figure>
                     <a href="">
                         The Facebook Ad Boycott Has Failed, and Mark Zuckerberg Is Richer Than Ever
@@ -97,10 +98,37 @@
                         Mark Zuckerberg's net worth exceeded $100 billion just days after an ad boycott targeting Facebook ended.
                     </p>                
                 </div> 
-                </div>
-            <!-- Feature Story       -->
-            <div class="col-md-6 col-lg-3 order-1 d-flex flex-column">
-                Feature Story
+            </div>    
+        </div>         
+    </section>
+
+    <section class="main-area">
+        <div class="row pt-3 bg-white">
+
+            <div class="col-md-6 col-lg-3 order-1 d-flex flex-column">      
+
+                <!-- This Top Story is only visibile in phone screen -->
+                <!-- <div class="col-md-6 col-lg-3"> -->
+                    <!-- <div class="d-12 d-sm-none d-md-none d-lg-none">
+                        <h6 class="custom-color">TOP STORY</h6>
+                        <div class="card border-0 my-3">
+                            <figure class="w-100 position-relative mb-0 ">
+                                <img src="img/facebook-logo.jpg" alt="facebook-Top-Story" class="w-100 p-0 mb-0 img-fluid h-100" />
+                                <figcaption class="position-absolute text-nowrap p-1 my-0">
+                                TECH & SCIENCE
+                                </figcaption>
+                            </figure>
+                            <a href="">
+                                The Facebook Ad Boycott Has Failed, and Mark Zuckerberg Is Richer Than Ever
+                            </a>
+                            <p>
+                                Mark Zuckerberg's net worth exceeded $100 billion just days after an ad boycott targeting Facebook ended.
+                            </p>                
+                        </div> 
+                    </div>          -->
+                <!-- </div> -->
+                
+                <h6 class="custom-color">Feature Story</h6>
                 <div class="card border-0 my-3">
                     <figure class="position-relative mb-0 w-100">
                     <img src="img/Feature-pic-1.jpg" alt="police" class="w-100 p-0 mb-0 img-fluid h-100" />
@@ -177,7 +205,7 @@
             <!-- TOP STORY -->
             <div class="col-md-6 col-lg-5 order-3 order-md-2 ">
                 <div class=" d-none d-sm-block">
-                TOP STORY
+                    <h6 class="custom-color">TOP STORY</h6>
                 <div class="card border-0 my-3">
                     <figure class="w-100 position-relative mb-0 ">
                     <img src="img/facebook-logo.jpg" alt="facebook-Top-Story" class="w-100 p-0 mb-0 img-fluid h-100" />
@@ -197,13 +225,13 @@
                 <div class="row"> 
                 <!-- MY TURN -->
                 <div class="my-turn order-2 order-sm-1">
-                    MY TURN 
+                    <h6 class="custom-color">MY TURN</h6> 
                     <div class="row">
-                        <div class="col-12 col-sm-4 card my-3 border-0 ">
+                        <div class="col-12 col-sm-4 card my-3 border-0">
                             <figure>
                                 <img src="img/marriage-divorce-relationships-therapy.jpg" alt="marriage-divorce-relationships-therapy" class="w-100 p-0 mb-0 img-fluid h-100" />
                             </figure>
-                            <p>
+                            <p class="font-weight-bold custom-color">
                                 'I Work With Couples About to Divorce, Here Are Their Top 5 Problems'
                             </p>  
                         </div>
@@ -211,7 +239,7 @@
                             <figure>
                                 <img src="img/llama-black-lives-matter-protests-portland.jpg" alt="Protest" class="w-100 p-0 mb-0 img-fluid h-100"/>
                             </figure>
-                            <p>
+                            <p class="font-weight-bold custom-color">
                                 'I'm Bringing a Therapy Llama to the Portland Protests'
                             </p>  
                         </div>
@@ -219,7 +247,7 @@
                             <figure>
                                 <img src="img/mike-brown-protests-black-lives-matter-film.jpg" alt="black-lives-matter" class="w-100 p-0 mb-0 img-fluid h-100" />
                             </figure>
-                            <p>
+                            <p class="font-weight-bold custom-color">
                                 'Six Years On From Mike Brown's Death, I Have Not Seen The Change We Need'
                             </p>  
                         </div>
@@ -227,7 +255,7 @@
                 </div>
                 <!-- CULTURE & TRAVEL -->
                 <div class="culture-and-travel order-3 order-sm-2">
-                    CULTURE & TRAVEL
+                    <h6 class="custom-color">CULTURE & TRAVEL</h6>
                     <div class="row">
                         <div class="col-12 col-sm-4 card my-3 border-0 ">
                             <figure class="position-relative">
@@ -236,7 +264,7 @@
                                     MOVIES
                                   </figcaption>
                             </figure>
-                            <p>
+                            <p class="font-weight-bold custom-color">
                                 Outdoor Movies Around the World with Cinematic Views
                             </p>  
                         </div>
@@ -247,7 +275,7 @@
                                     ROAD TRIPS
                                 </figcaption>
                             </figure>
-                            <p>
+                            <p class="font-weight-bold custom-color">
                                 RVs Continue to Surge in Popularity Amidst Pandemic
                             </p>  
                         </div>
@@ -258,7 +286,7 @@
                                     SHARKS
                                 </figcaption>
                             </figure>
-                            <p>
+                            <p class="font-weight-bold custom-color">
                                 Ready for Shark Week? The Most Surprising Facts About Sharks
                             </p>  
                         </div>
@@ -266,7 +294,8 @@
                 </div>
                 <!-- MORE STORIES -->
                 <div class="more-stories order-1 order-sm-3">
-                    MORE STORIES
+                    <h6 class="custom-color">MORE STORIES</h6>
+                    <div class="border-decoration"></div>
                     <div class="row d-12 ml-1">
                         <div class="d-flex border-bottom mt-3">
                             <figure>
@@ -405,7 +434,7 @@
                             </div>                           
                          </div>
 
-                         <div class="d-flex border-bottom mt-3">
+                         <div class="d-flex  mt-3 mb-3">
                             <figure>
                                <img class="img-aside" src="img/vladimir-putin.jpg" alt="vladimir-putin" />
                             </figure>
@@ -423,11 +452,10 @@
             </div>
 
             <!-- THE DEBATE -->
-            <div class="col-lg-4 order-2 order-md-3">
+            <div class="col-lg-4 order-2 order-md-3 pr-2">
                 <div class="row m-1">
-                    <div class="border-bottom ">
-                        THE DEBATE
-                    </div>
+                    <h6 class="custom-color">THE DEBATE</h6>
+                    <div class="decoration mb-1"></div>
                     <div class="d-flex">
                         <figure>
                             <img class="img-aside" src="img/kelly-shackelford.jpg" alt="kelly-shackelford" />
@@ -440,7 +468,7 @@
                     <div class="decoration">
                          <div class="text-white vs-decoration">VS</div>
                     </div>
-                    <div class="d-flex border-bottom mt-3">                    
+                    <div class="d-flex mt-3">                    
                         <div class="ml-2">
                             <a href="">Preserve Our Traditions of Religious Freedom and Church-State Separation</a>
                             <p>BY <b>MELISSA ROGERS</b></p>
@@ -449,13 +477,12 @@
                            <img class="img-aside" src="img/melissa-rogers.jpg" alt="melissa-rogers" />
                         </figure>     
                    </div> 
+                   <div class="decoration mb-1"></div>
                 </div>
 
                 <div class="row m-1">
-                    <div class="border-bottom">
-                        OPINION
-                    </div>
-                    <div class="d-flex border-bottom">
+                    <h6 class="custom-color mt-3">OPINION</h6>
+                    <div class="d-flex  mt-2">
                         <figure>
                             <img class="img-aside" src="img/marco-rubio.jpg" alt="marco-rubio" />
                          </figure>
@@ -464,7 +491,8 @@
                              <p>BY MARCO RUBIO</p>
                          </div>          
                     </div> 
-                    <div class="d-flex border-bottom">
+                    <div class="border-decoration"></div>
+                    <div class="d-flex  mt-2">
                         <figure>
                             <img class="img-aside" src="img/aimee-allison.jpg" alt="aimee-allison" />
                          </figure>
@@ -473,7 +501,8 @@
                              <p>BY AIMEE ALLISON</p>
                          </div>          
                     </div> 
-                    <div class="d-flex border-bottom">
+                    <div class="border-decoration"></div>                    
+                    <div class="d-flex mt-2">
                         <figure>
                             <img class="img-aside" src="img/frank-donatelli.jpg" alt="frank-donatelli" />
                          </figure>
@@ -482,7 +511,8 @@
                              <p>BY FRANK DONATELLI</p>
                          </div>          
                     </div> 
-                    <div class="d-flex border-bottom">
+                    <div class="border-decoration"></div>                     
+                    <div class="d-flex mt-2">
                         <figure>
                             <img class="img-aside" src="img/john-c-eastman.jpg" alt="john-c-eastman" />
                          </figure>
@@ -490,8 +520,9 @@
                              <a href="">Some Questions for Kamala Harris About Eligibility</a>
                              <p>BY JOHN C. EASTMAN</p>
                          </div>          
-                    </div> 
-                    <div class="d-flex border-bottom">
+                    </div>                    
+                    <div class="border-decoration"></div>
+                    <div class="d-flex mt-2">
                         <figure>
                             <img class="img-aside" src="img/jeremy-dys.jpg" alt="jeremy-dys" />
                          </figure>
@@ -500,7 +531,8 @@
                              <p>BY JEREMY DYS</p>
                          </div>          
                     </div> 
-                    <div class="d-flex border-bottom">
+                    <div class="border-decoration"></div>
+                    <div class="d-flex mt-2">
                         <figure>
                             <img class="img-aside" src="img/jianli-yang-aaron-rhodes.jpg" alt="DR. JIANLI YANG AND AARON RHODES" />
                          </figure>
@@ -508,10 +540,10 @@
                              <a href="">We Face the Specter of Genocide in Xinjiang</a>
                              <p>BY DR. JIANLI YANG AND AARON RHODES</p>
                          </div>          
-                    </div> 
+                    </div>                     
                 </div>
                <div class="advertise row m-1">
-                   <div class="d-flex">
+                   <div class="d-flex mt-2">
                     <figure>
                         <img class="img-aside" src="img/n.png" alt="Logo" />
                     </figure>
