@@ -54,6 +54,11 @@
     left: 0;
   }
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}  
+
 
 .wrapper {
   width: 85%;
@@ -109,7 +114,17 @@
 
 .advertise {
   background-color: var(--grey-decoration);
+  width: 80%;
 }
+
+.advertise img {
+  width: 40px;
+  height: 40px;
+}
+
+
+/* My Turn */
+
 
 /* Section: In The Magazin and Editor's pic */
 
