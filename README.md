@@ -5,7 +5,7 @@
 ![screenshot](img/screencapture.png)
 
 - mobile view
-![screenshot-mobile](img/mobile-screenshot.jpg)
+![screenshot-mobile](img/mobile-screenshot.jpeg)
 
 - ipad view
 ![screenshot-tab-view](img/ipad-screencaptur.png)
