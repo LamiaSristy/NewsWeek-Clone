@@ -64,12 +64,21 @@ figcaption {
   width: 100%;
 }
 
+.advertise img {
+  width: 40px;
+  height: 40px;
+}
+
+.subscription img {
+  width: 90%;
+  height: 100%;
+}
+
 /* Header */
 
 .nav-header {
   background-color: var(--red);
 }
-
 
 .nav-header img {
   object-fit: unset;
@@ -83,12 +92,10 @@ figcaption {
   width: 60%;
 }
 
-
 /* test */
 
-.mid-nav a{
+.mid-nav a {
   font-size: 0.88rem;
-  /* line-height: 2rem; */
 }
 
 .custom-color {
@@ -125,11 +132,6 @@ figcaption {
   width: 80%;
 }
 
-.advertise img {
-  width: 40px;
-  height: 40px;
-}
-
 /* Section: In The Magazin and Editor's pic */
 
 .logo-pic {
@@ -154,11 +156,6 @@ figcaption {
   background-color: var(--grey-decoration);
   margin: 5px;
   padding: 30px;
-}
-
-.subscription img {
-  width: 90%;
-  height: 100%;
 }
 
 .btn-red {

@@ -1,14 +1,8 @@
-# NewsWeek-Copy
+# NewsWeek-Clone
 > In this project we made a replica of the news site Newsweek.com using the Bootstrap framework.
 
 - Laptop view
 ![screenshot](img/screencapture.png)
-
-- mobile view
-![screenshot-mobile](img/mobile-screenshot.jpeg)
-
-- ipad view
-![screenshot-tab-view](img/ipad-screencaptur.png)
 
 ## Built With
 
