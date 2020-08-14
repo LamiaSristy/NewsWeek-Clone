@@ -70,8 +70,13 @@ figcaption {
   background-color: var(--red);
 }
 
+
 .nav-header img {
   object-fit: unset;
+}
+
+.nav-header img:hover {
+  cursor: pointer;
 }
 
 .nav-bottom {
