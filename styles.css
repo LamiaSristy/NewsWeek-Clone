@@ -57,7 +57,7 @@ figcaption {
 }
 
 .wrapper {
-  width: 85%;
+  width: 100%;
 }
 
 .mobile-screen {
@@ -81,6 +81,14 @@ figcaption {
 
 .nav-bottom {
   width: 60%;
+}
+
+
+/* test */
+
+.mid-nav a{
+  font-size: 0.88rem;
+  /* line-height: 2rem; */
 }
 
 .custom-color {
