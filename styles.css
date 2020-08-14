@@ -1,0 +1,178 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --body-color: #e6ebf0;
+  --red: rgb(248, 44, 8);
+  --grey: rgb(134, 126, 126);
+  --figcap-bg: #f0e7e7e6;
+  --grey-decoration: #f4f5f6;
+  --grey-decoration2: #caced4;
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--body-color);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: var(--red);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  background-color: var(--figcap-bg);
+  color: var(--red);
+  bottom: 0;
+  left: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.mobile-screen {
+  width: 100%;
+}
+
+.advertise img {
+  width: 40px;
+  height: 40px;
+}
+
+.subscription img {
+  width: 90%;
+  height: 100%;
+}
+
+/* Header */
+
+.nav-header {
+  background-color: var(--red);
+}
+
+.nav-header img {
+  object-fit: unset;
+}
+
+.nav-header img:hover {
+  cursor: pointer;
+}
+
+.nav-bottom {
+  width: 60%;
+}
+
+/* test */
+
+.mid-nav a {
+  font-size: 0.88rem;
+}
+
+.custom-color {
+  color: var(--grey);
+}
+
+/* Debate & Opinion */
+
+.decoration {
+  position: relative;
+  height: 4px;
+  width: 100%;
+  background-color: var(--grey-decoration2);
+}
+
+.vs-decoration {
+  position: absolute;
+  width: 25px;
+  padding-left: 3px;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: -10px;
+  margin-left: calc(50% - 18px);
+}
+
+.border-decoration {
+  width: 100%;
+  height: 0.5px;
+  background-color: lightgray;
+}
+
+.advertise {
+  background-color: var(--grey-decoration);
+  width: 80%;
+}
+
+/* Section: In The Magazin and Editor's pic */
+
+.logo-pic {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.bg {
+  background-color: var(--red);
+}
+
+.text-color {
+  color: var(--red);
+}
+
+.img-aside {
+  height: 80px;
+  width: 80px;
+}
+
+.subscription {
+  background-color: var(--grey-decoration);
+  margin: 5px;
+  padding: 30px;
+}
+
+.btn-red {
+  background-color: var(--red);
+}
+
+/* Footer  */
+
+.footer-logo {
+  object-fit: unset;
+}
+
+.footer-p {
+  font-size: 12px;
+}
+
+.bottom-footer li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
