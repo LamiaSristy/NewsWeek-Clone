@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/LamiaSristy/NewsWeek-Copy/test1/index.html)
+[Live Demo Link](https://raw.githack.com/LamiaSristy/NewsWeek-Clone/master/index.html)
 
 
 ## Authors
